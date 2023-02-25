@@ -1,0 +1,78 @@
+body {
+    background-color: #A7D7C5;
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    background-color: #F6FBF9;
+    margin: 7% auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 40px;
+    width: 36%;
+    opacity: 0.9;
+}
+
+.form-control {
+    margin: 3% auto;
+    height: 50px;
+}
+
+p,
+p a {
+    color: #32403B;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: underline #32403B;
+}
+
+.create-account-pargraph {
+    width: 70%;
+    text-align: center;
+    margin: 2% auto;
+    font-weight: 400;
+    color: #32403B;
+}
+
+.create-account-heading {
+    font-size: 2.5em;
+    font-weight: bold !important;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: bold !important;
+    background-color: #84C7AE !important;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    height: 50px;
+
+}
+
+.btn:hover {
+    background-color: #b2e0cf!important;
+}
+
+.test1 {
+    position: absolute;
+    top: 0%;
+    z-index: -1;
+}
+
+.test2 {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+input {
+    border-radius: 10px !important;
+}
+
+::placeholder {
+    opacity: 0.5 !important;
+}
